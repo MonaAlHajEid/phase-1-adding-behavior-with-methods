@@ -1,0 +1,47 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 0,
+    "passes": 0,
+    "pending": 0,
+    "failures": 3,
+    "start": "2023-11-24T18:59:41.145Z",
+    "end": "2023-11-24T18:59:41.700Z",
+    "duration": 555
+  },
+  "tests": [],
+  "pending": [],
+  "failures": [
+    {
+      "title": "\"before each\" hook for \"has a class of cat\"",
+      "fullTitle": "cat \"before each\" hook for \"has a class of cat\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: Cat is not defined\n    at Context.<anonymous> (test/indexTest.js:7:5)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "Cat is not defined"
+      }
+    },
+    {
+      "title": "\"before each\" hook for \"has a class of dog\"",
+      "fullTitle": "dog \"before each\" hook for \"has a class of dog\"",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: Dog is not defined\n    at Context.<anonymous> (test/indexTest.js:19:5)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "Dog is not defined"
+      }
+    },
+    {
+      "title": "\"before each\" hook for \"has a class of Bird\"",
+      "fullTitle": "bird \"before each\" hook for \"has a class of Bird\"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: Bird is not defined\n    at Context.<anonymous> (test/indexTest.js:31:5)\n    at process.processImmediate (node:internal/timers:476:21)",
+        "message": "Bird is not defined"
+      }
+    }
+  ],
+  "passes": []
+}
